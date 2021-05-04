@@ -34,5 +34,9 @@ public void returnStringMaxAtThirdPos() {
 	String max = FindMax.findMaxString("Apple", "Banana", "Peach");
 	assertEquals("Peach", max);
 }
-
+@Test
+public void returnMax() {
+	String max = FindMaxGeneric.maximum("Apple", "Banana", "Peach");
+	assertEquals("Peach", max);
+}
 }
