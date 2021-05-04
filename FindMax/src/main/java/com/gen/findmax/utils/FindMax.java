@@ -7,7 +7,6 @@ public class FindMax {
 			max = y;
 		if(z.compareTo(max) > 0)
 			max = z;
-		//printMax(x,y,z,max);
 		return max;
 	}
 	public static void main(String[] args) {
